@@ -13,7 +13,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <div className="w-screen bg-amber-300 h-50">Navigasjonslinje</div>
+        {children}
+      </body>
     </html>
   );
 }
